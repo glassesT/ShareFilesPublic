@@ -1,5 +1,5 @@
 #Base Lists 
-$Global:HumansNames = @('Dennis Persaud', 'Sarita Persaud', 'Krysten Persaud', 'Chontelle Persaud');
+$Global:HumansNames = @('Dennis Persaud', 'Sarita Persaud', 'Krysten Persaud', 'Chontelle');
 $Global:BadPasswords = @('password1', 'password2', 'password3', 'password4');
 $Global:HighGroups = @('Office Admin','IT Admins','Executives');
 $Global:MidGroups = @('Senior management','Project management');
@@ -22,7 +22,7 @@ function ShowBanner {
     $banner+= $Global:Spacing + ''
     $banner+= $Global:Spacing + 'VULN AD - Vulnerable Active Directory'
     $banner+= $Global:Spacing + ''                                                  
-    $banner+= $Global:Spacing + 'By wazehell @safe_buffer'
+    $banner+= $Global:Spacing + 'By glassesT @safe_buffer'
     $banner | foreach-object {
         Write-Host $_ -ForegroundColor (Get-Random -Input @('Green','Cyan','Yellow','gray','white'))
     }                             
