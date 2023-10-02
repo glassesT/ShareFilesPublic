@@ -1,5 +1,5 @@
 #Base Lists 
-$Global:HumansNames = @('Dennis', 'Sarita', 'Krysten', 'Chontelle');
+$Global:HumansNames = @('Dennis Persaud', 'Sarita Persaud', 'Krysten Persaud', 'Chontelle Persaud');
 $Global:BadPasswords = @('password1', 'password2', 'password3', 'password4');
 $Global:HighGroups = @('Office Admin','IT Admins','Executives');
 $Global:MidGroups = @('Senior management','Project management');
